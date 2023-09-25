@@ -37,7 +37,9 @@ export const RecipeCard = ({
       </RecipeInfo>
 
       <div>
-        <h3>Difficulty</h3>
+        <h3 style={{ color: 'blue', cursor: 'pointer', hover: 'red' }}>
+          Difficulty
+        </h3>
         <BadgeList>
           <Badge
             active={difficulty === RecipeDifficulty.easy}
@@ -58,6 +60,7 @@ export const RecipeCard = ({
             Hard
           </Badge>
         </BadgeList>
+        <h4 className="helli">Hello</h4>
       </div>
     </div>
   );
